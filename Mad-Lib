@@ -1,0 +1,8 @@
+print("welcome to MAD-LIB")
+print("Please answer the following questions")
+print("")
+
+adjective1 = input("Enter an adjective")
+food1 = input("Enter a food")
+
+print("Once there was an",adjective1,"man and he wanted to make a",food1)
