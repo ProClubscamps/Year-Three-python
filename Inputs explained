@@ -1,0 +1,25 @@
+#input explained
+#Python has many "built in" function
+#here is a list
+#https://docs.python.org/3/library/functions.html
+
+#here is a variable
+name = "bob"
+
+#However, not everyone is called bob
+#here is how to allow a user to input
+#...their name
+name = str(input("Enter your name"))
+print("nice to meet you",name)
+
+age = int(input("Enter your age"))
+print("Wow I can't believe you're",age, "years old!")
+
+color = str(input("Enter your favourite color"))
+print("Your favourite color is",color)
+
+place = str(input("Where do you live?"))
+print("I've never heard of",place, "before!")
+
+Answer = float(input("Give me the first three digits of pie"))
+print("Are you sure",answer,"is the correct answer?")
