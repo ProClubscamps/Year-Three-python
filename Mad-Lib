@@ -1,8 +1,17 @@
 print("welcome to MAD-LIB")
 print("Please answer the following questions")
 print("")
-
+name1 = input("Enter a name")
 adjective1 = input("Enter an adjective")
 food1 = input("Enter a food")
+ingredient1 = input("enter an ingredient")
+ingredient2 = input("enter another ingredient")
+verb1 = input("enter a negative adjective")
+fc = input("enter your favourite football club")
+fc25 = input("enter another football club")
+food2 = input("Enter another food")
 
-print("Once there was an",adjective1,"man and he wanted to make a",food1)
+
+print("Once there was a man named", name1, "and he was a very" ,adjective1,"man and he wanted to make a",food1,"and so he used the ingredients", ingredient1, "and", ingredient2, "but he thought it tasted disguting and" ,verb1,". However,", name1, "thought that" ,fc, "was better than" ,fc25, "and so he decided to never eat", food1, "again""but then" ,name1, "realised it was",fc , "game against man city but of course man city won 500-0 but he needed food as he was hungry after watching the match and so he ate a lot of", food2, "and then died.")
+
+
