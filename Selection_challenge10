@@ -1,0 +1,17 @@
+#Selection challenge 10 (gcsecs)
+#Using a nested if statement
+#Ask the user if they want a kebab or not – y or n
+#If they type “n”, display “are you feeling ok?”
+#But, it they type “y” ask, “with chilli sauce?”
+#If they answer this with “n” display “hmm”
+#Otherwise display “of course you want chilli sauce”
+Kebab = str(input("Do you want a kebab?"))
+if Kebab == 'y':
+  sauce = input("With chilli sauce?")
+  if sauce == "y":
+    print("of course you want chilli sauce")
+  elif sauce == "n":
+    print("hmmm")
+else:
+  print("Are you feeling ok?")
+  
