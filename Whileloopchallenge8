@@ -1,0 +1,25 @@
+#While loop challenge8 (gcsecs.com)
+
+#part of this code it missing.
+#It should ask the user to guess a number over and over again, but..
+#only give them 5 attempts.
+#If they guess correct, it displays 'Yay! Correct guess'
+#otherwise it prints 'You are out of attempts'
+#HINT: Use an "and" opertor
+
+
+import random
+number = random.randint(1,10)
+attempts = 0
+guess = ""
+
+
+#add a While loop here
+while attempts < 5 and number != guess:
+  guess=int(input("Pick a number between 1-10"))
+  attempts = attempts + 1
+
+if guess == number:
+   print("yay correct guess!")
+else:
+    print("You are out of attempts")
